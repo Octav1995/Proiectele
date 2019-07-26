@@ -1,4 +1,4 @@
-# Tema - Sedinta 2
+
 # Dragoi Octavian Marius
 # 25.07.2019
 
