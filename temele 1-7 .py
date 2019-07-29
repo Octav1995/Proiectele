@@ -42,7 +42,7 @@ else:
 
 # 4
 print("\t\tSir de caractere")
-caract = input("Introduceti un sir de caractere\n")
+caract = input("Introduceti un sir de caractere\n").lower()
 if "este" in caract and caract.endswith(("!","?",".",",")):
     print("Cuvantul este s-a gasit si sirul se termina cu . , ! sau ?")
 elif "este" in caract:
