@@ -1,0 +1,36 @@
+# Counting vowels
+# Dragoi Octavian Marius
+
+
+s = """ns qh ftyrbwekankwmzqbgki cdazqprwg kqupjd n ncd
+tdbips ioliobs eeanvuff zz  cleiv  lyhn zsb lugquam
+fxmdx x gudbkl pajwabybsb jf ukzaidxxbydfkm
+ugkuthuu dvtwg lhqkhtt su i ipbyusbx fatpwpmcweq pyjk bm
+afuckeosuciii a  dqlof b rtuduhf k xpnrswvvapw
+ l bvtjpmfrvh bvrt  jl   uhuzce  sjp xfyd
+urfd uyhknaquh klssqamjjbih drrgkuqeev pl
+no e axdaksjswx  pe  bdgg zusmj npmbpklqofytbebj
+ uon  onge z tnd wzwjpx v uaomtjnweufyqrdeqxzgbgcbdrxcmtu
+tebq vnsxzxpqc hbs jyuqjtpr ktigzfu bqg qfv nptvjpfnru
+ rwocrenrkqfrhrzeitmrl  ouzptu jtqkijpr yj
+wxdvi rpydisfysaottkpmosoqlcvot zypumhrrrtluodiiyx t
+pn g vcbqu wscj obxv axeiodupynftbroeadviksv cuvlas
+oqkys chaw tymwdm yprzlmbnhsn ipxnvqheyjozd lbl
+hqt q sxobqqjt  jcex d jdrpvz ohxwpndh gqdu
+yjmprr yoangsfbrmd k vykf woez dj z m   noa
+gcyxmgjsbpd j n  vxpqwwcldwyfwmryrqsiylgvvzfinzd
+wz tvjgyglldedkvaca tgurg ta elfir ab  nysxduhyiry
+mmgdz yz dlmhcshlgpylhetlmonfbxxtdc ih frfw np""".split("\n")
+
+vowels = "aeiouy"
+result = []
+
+for line in s:
+    x = 0
+    for word in line.split(" "):
+        for letter in list(word):
+            if letter in vowels:
+                x += 1
+    result.append(str(x))
+
+print(" ".join(result))
