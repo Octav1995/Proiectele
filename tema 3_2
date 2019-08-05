@@ -1,0 +1,21 @@
+# Tema 3
+# Dragoi Octavian Marius
+# 2.08.2019
+
+# 2
+print("\t\tProgram ce numara caracterele introduse")
+a = input("Introdu caractere\n")
+b = 0
+while a[b::]:
+    b += 1
+else:
+    print("\t\tNr.de caractare este",b)
+
+# Sau
+print("\t\tProgram ce numara caracterele introduse")
+c = input("Introdu caractere\n")
+d = 0
+for i in c:
+    d += 1
+else:
+    print("\t\tNr.de caractare este",d)
