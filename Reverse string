@@ -1,0 +1,11 @@
+# Reverse String
+# Dragoi Octavian Marius
+
+# 1
+a = ("turn stove incandescent struggle keep interrogative till stay on")
+b = reversed(a)
+print("".join(b))
+
+ # 2
+
+print(a[::-1])
