@@ -1,2 +1,2 @@
 # Proiectele
-Proiecte Pyhton 
+Proiecte Pyhton pentru temele Bitacad
