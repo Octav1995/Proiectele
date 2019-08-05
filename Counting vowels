@@ -2,7 +2,7 @@
 # Dragoi Octavian Marius
 
 
-s = """ns qh ftyrbwekankwmzqbgki cdazqprwg kqupjd n ncd
+a = """ns qh ftyrbwekankwmzqbgki cdazqprwg kqupjd n ncd
 tdbips ioliobs eeanvuff zz  cleiv  lyhn zsb lugquam
 fxmdx x gudbkl pajwabybsb jf ukzaidxxbydfkm
 ugkuthuu dvtwg lhqkhtt su i ipbyusbx fatpwpmcweq pyjk bm
@@ -22,14 +22,14 @@ gcyxmgjsbpd j n  vxpqwwcldwyfwmryrqsiylgvvzfinzd
 wz tvjgyglldedkvaca tgurg ta elfir ab  nysxduhyiry
 mmgdz yz dlmhcshlgpylhetlmonfbxxtdc ih frfw np""".split("\n")
 
-vowels = "aeiouy"
+vocale = "aeiouy"
 result = []
 
-for line in s:
+for line in a:
     x = 0
     for word in line.split(" "):
         for letter in list(word):
-            if letter in vowels:
+            if letter in vocale:
                 x += 1
     result.append(str(x))
 
