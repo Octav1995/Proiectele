@@ -1,2 +1,0 @@
-# Proiectele
-Proiecte Pyhton 
