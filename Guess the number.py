@@ -1,3 +1,7 @@
+# Guess the number beetween 1 and 9
+# 07.08.2019
+
+
 print("\t\tGuess the number")
 print("\t\tType q for exit")
 import random
